@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ViewController1.h"
 #import "ViewController2.h"
+#import "ViewController3.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -29,7 +30,7 @@
     
     [self.tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellID"];
     
-    self.datasource = @[@"居中显示一个view",@"让一个view略小于其superView(边距为10)"];
+    self.datasource = @[@"居中显示一个view",@"让一个view略小于其superView(边距为10)",@"让两个高度为150的view垂直居中且等宽且等间隔排列 间隔为10"];
     
 }
 
@@ -74,6 +75,13 @@
             vc.title = self.datasource[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
             
+            break;
+        }
+        case 2:{
+            ViewController3 *vc = [ViewController3 new];
+            vc.view.backgroundColor = [UIColor whiteColor];
+            vc.title = self.datasource[indexPath.row];
+            [self.navigationController pushViewController:vc animated:YES];
             break;
         }
             

@@ -16,6 +16,7 @@
 		96406DA61E529F8300CD6B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96406DA41E529F8300CD6B1C /* LaunchScreen.storyboard */; };
 		96406DB11E52A32100CD6B1C /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96406DB01E52A32100CD6B1C /* ViewController1.m */; };
 		96406DB41E52A7BB00CD6B1C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96406DB31E52A7BB00CD6B1C /* ViewController2.m */; };
+		96406DB71E52AB2900CD6B1C /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 96406DB61E52AB2900CD6B1C /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		96406DB01E52A32100CD6B1C /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		96406DB21E52A7BB00CD6B1C /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		96406DB31E52A7BB00CD6B1C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		96406DB51E52AB2900CD6B1C /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		96406DB61E52AB2900CD6B1C /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		B5537D79C6B0D20447B11735 /* Pods-MasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D8F59B33D9EC97EC1BB80864 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +105,8 @@
 				96406DB01E52A32100CD6B1C /* ViewController1.m */,
 				96406DB21E52A7BB00CD6B1C /* ViewController2.h */,
 				96406DB31E52A7BB00CD6B1C /* ViewController2.m */,
+				96406DB51E52AB2900CD6B1C /* ViewController3.h */,
+				96406DB61E52AB2900CD6B1C /* ViewController3.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			files = (
 				96406DB11E52A32100CD6B1C /* ViewController1.m in Sources */,
 				96406D9E1E529F8300CD6B1C /* ViewController.m in Sources */,
+				96406DB71E52AB2900CD6B1C /* ViewController3.m in Sources */,
 				96406DB41E52A7BB00CD6B1C /* ViewController2.m in Sources */,
 				96406D9B1E529F8300CD6B1C /* AppDelegate.m in Sources */,
 				96406D981E529F8300CD6B1C /* main.m in Sources */,
