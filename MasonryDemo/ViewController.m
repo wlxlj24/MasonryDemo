@@ -50,7 +50,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = self.datasource[indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld.%@",indexPath.row+1,self.datasource[indexPath.row]];
     
     return cell;
 }

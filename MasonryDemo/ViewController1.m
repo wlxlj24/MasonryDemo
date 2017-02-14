@@ -18,6 +18,13 @@
     [super viewDidLoad];
     
     UIView *sv = [UIView new];
+    [sv showPlaceHolder];
+    sv.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:sv];
+    [sv mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(300, 300));
+    }];
     
 }
 
