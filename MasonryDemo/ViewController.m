@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ViewController1.h"
+#import "ViewController2.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +29,7 @@
     
     [self.tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellID"];
     
-    self.datasource = @[@"居中显示一个view"];
+    self.datasource = @[@"居中显示一个view",@"让一个view略小于其superView(边距为10)"];
     
 }
 
@@ -61,6 +62,14 @@
         case 0:{
             //居中显示一个view
             ViewController1 *vc = [ViewController1 new];
+            vc.view.backgroundColor = [UIColor whiteColor];
+            vc.title = self.datasource[indexPath.row];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+            break;
+        }
+        case 1:{
+            ViewController2 *vc = [ViewController2 new];
             vc.view.backgroundColor = [UIColor whiteColor];
             vc.title = self.datasource[indexPath.row];
             [self.navigationController pushViewController:vc animated:YES];
